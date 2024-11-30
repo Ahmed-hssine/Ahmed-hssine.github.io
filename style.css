@@ -1,0 +1,115 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    background-image: url("images/DALL·E\ 2024-11-30\ 21.30.49\ -\ A\ stunning\ space\ background\ featuring\ distant\ galaxies\,\ sparkling\ stars\,\ nebulae\,\ and\ a\ glowing\ planet\ in\ the\ distance.\ The\ colors\ range\ from\ deep\ blu.webp");
+}
+
+.login-container, .planet-menu, .planet-info {
+    margin-top: 10%;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+    align-items: center;
+
+}
+
+button:hover {
+    background-color: orange;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 18px;
+}
+
+ul li a:hover {
+    color: orange;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background:transparent;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 5px;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 5px;
+  }
+  .fa-facebook :hover{
+    background-color: gray;
+  }
+  .fa-twitter :hover{
+    background-color: gray;
+  }
+  .checked {
+    color: orange;
+  }
+ 
